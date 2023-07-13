@@ -193,6 +193,23 @@ text: size adjust 30px;;
    text-align:center;
       height: 70vh;
    } 
+   .micuenta1 h2{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: antiquewhite;
+      font-size: 40px;
+   }
+   .micuenta1 legend{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: antiquewhite;
+      font-size: 20px;
+   }
+   .micuenta1 label{
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: antiquewhite;
+      font-size: 15px;
+   }
+
+
 
 footer
 {
