@@ -71,6 +71,26 @@
 
       <h2>CUENTA</h2>
       <!-- FORMULARIO DE INICIO -->
+      <form action="enviar.php" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Acceder</legend>
+            <div>
+                <label for="USUARIO">
+                    "Nombre de usuario o correo electronico"
+                    <span>*</span>
+                </label>
+                <input type="text"placeholder="Tu nombre" id="Usuario">
+            </div>
+            <div>
+                <label for="Contraseña">
+                    "Contraseña"
+                    <span>*</span>
+                </label>
+                    <input type="password"placeholder id="Contraseña">
+            </div>
+            <input class="button" type="submit"value="Acceder">
+        </fieldset>
+    </form>
 
    
    
