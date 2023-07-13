@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Fjalla+One&family=Russo+One&display=swap');
+header{
+   font-family:'Bangers', cursive;
+  padding: 40px;
+   
+  }
+
+  body{
+   background-color: brown;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   overflow-x: hidden;
+   height:70vh;
+   
+}
+
+
+
+#menu li>a{
+   font-family:'Bangers', cursive;
+   color: aliceblue;
+   font-size: 18px;
+   margin:20px;
+   text-align: center;
+   font-size:20px;
+   
+}
+#menu form> button{
+   font-size: 18px;
+   font-weight:bold;
+
+}
+.carousel-inner{
+   max-height:50%
+}
+.contacto{
+   text-align: center;
+text: size adjust 30px;;
+
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 200px 1fr;
+   grid-gap: 20px;
+   padding: 20px;
+ }
+ .sidebar {
+   background-color:rgb(255, 255, 255)
+   padding: 10px;
+ }
+ .sidebar h2 {
+   margin-top: 0;
+   font-size:40px;
+   color: aliceblue;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .sidebar ul li a{
+   font-size: 30px;
+   color: aliceblue;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   list-style: none;
+   text-align: center;
+   text-decoration: none;
+ }
+
+ .main-content {
+   display: flex;
+   flex-wrap: wrap;
+ }
+ .main-content h2{
+   font-size:30px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: aliceblue;
+
+ }
+
+ .product-grid {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+ 
+ .product {
+   width: calc(33.33% - 20px);
+   margin-bottom: 20px;
+ }
+
+ .product img {
+   width: 100%;
+   height: auto;
+   border-radius: 40px;
+ }
+ .product h3 {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 30px;
+   font-weight: bold;
+ }
+ 
+ .product p {
+   color: aliceblue;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+   font-size: 14px;
+   
+ }
+  
+
+ .container2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+   padding: 20px;
+ }
+ 
+ .main-content2 {
+   text-align: center;
+ }
+ 
+ .texacerca {
+   max-width: 800px;
+   margin: 0 auto;
+ }
+.texacerca h2{
+   font-family:'Bangers', cursive;
+   font-size: 40px;
+}
+.texacerca p{
+   color: aliceblue;
+   font-size: 20px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+.texacerca ol li{
+   color: aliceblue;
+   font-size: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+   
+}
+
+.Contacto{
+   text-align: center;
+   text: size adjust 30px;;
+
+   }
+.Contacto h2 {
+   color: aliceblue;
+   font-size:30px
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Contacto h3 {
+   color: aliceblue;
+   font-size:30px;
+   text-align: center;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Contacto legend{
+   color: aliceblue;
+   font-size: 20px;
+   text-align: center;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Contacto label{
+   color: aliceblue;
+   font-size: 20px;
+   text-align: center;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-wpp{
+   position: fixed;
+   width:55px;
+   height: 55px;
+   line-height: 55px;
+   bottom: 30px;
+   right:30px;
+   background: green;
+   color:white;
+   border-radius: 50px;
+   text-align: center;
+   font-size: 30px;
+   box-shadow:0px 1px 10px rgba(0,0,0,0.3);
+   z-index: 100;
+}
+.btn-wpp:hover{
+   text-decoration: none;
+   color: rgba(0, 128, 0, 0.185);
+   background: white;
+}
+
+footer
+{
+   background-color: rgb(94, 8, 8);
+  height:10vh;
+  width:100%;
+   clear: both;
+   content: ¨;
+   display:table;
+}
+@media screen and (max-width:425px){
+   .header{
+      background-position: 20%;
+   }
+   .body{
+      background-position: 70%;
+   
+   }
+   .footer{
+      background-position: 10%;
+   }
+}
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+   .header{
+      background-position: 20%;
+   }
+   .body{
+      background-position: 70%;
+   
+   }
+   .footer{
+      background-position: 10%;
+   }
+}
