@@ -2,14 +2,14 @@
 header{
    font-family:'Bangers', cursive;
   padding: 40px;
-   
+   display: flex;
   }
 
   body{
    background-color: brown;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
    overflow-x: hidden;
-   height:70vh;
+   height:100vh;
    
 }
 
@@ -220,3 +220,38 @@ footer
    content: ¨;
    display:table;
 }
+
+
+/* Escritorio primero */
+
+
+@media (max-width: 1200px) {
+   
+}
+   
+
+@media (max-width: 1024px) {
+   
+}
+   
+@media (max-width: 768px) {
+   header{
+      font-family:'Bangers', cursive;
+     padding: 40px;
+   display: flex;
+     }
+   
+}
+   
+@media (max-width: 600px) {
+   
+}
+   
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 320px) {
+   
+}
+ 
