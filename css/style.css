@@ -189,6 +189,10 @@ text: size adjust 30px;;
    color: rgba(0, 128, 0, 0.185);
    background: white;
 }
+.micuenta1{
+   text-align:center;
+      height: 70vh;
+   } 
 
 footer
 {
@@ -198,35 +202,4 @@ footer
    clear: both;
    content: ¨;
    display:table;
-}
-@media screen and (max-width:425px){
-   .header{
-      background-position: 20%;
-   }
-   .body{
-      background-position: 70%;
-   
-   }
-   .footer{
-      background-position: 10%;
-   }
-}
-
-
-
-
-
-
-
-@media screen and (max-width:768px){
-   .header{
-      background-position: 20%;
-   }
-   .body{
-      background-position: 70%;
-   
-   }
-   .footer{
-      background-position: 10%;
-   }
 }
